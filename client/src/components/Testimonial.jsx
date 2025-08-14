@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets } from '../assets/assets' // ✅ Make sure this path is correct
+import { assets } from '../assets/assets' // 
 
 const Testimonial = () => {
     const dummyTestimonialData = [
