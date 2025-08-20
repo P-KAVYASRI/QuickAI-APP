@@ -30,7 +30,7 @@ const AiTools = () => {
               style={{
                 background: `linear-gradient(to bottom, ${tool.bg.from}, ${tool.bg.to})`
               }}
-            />
+            /> 
             <h3 className='mt-6 mb-3 text-lg font-semibold'>{tool.title}</h3>
             <p className='text-gray-400 text-sm max-w-[95%]'>{tool.description}</p>
           </div>
