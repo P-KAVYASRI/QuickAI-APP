@@ -12,7 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@clerk/express": "^1.7.21",
+    "@clerk/express": "^1.7.24",
     "@neondatabase/serverless": "^1.0.1",
     "axios": "^1.11.0",
     "cloudinary": "^2.7.0",
@@ -20,7 +20,7 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "multer": "^2.0.2",
-    "openai": "^5.12.2",
+    "openai": "^5.15.0",
     "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
