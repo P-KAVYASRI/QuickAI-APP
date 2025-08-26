@@ -7,7 +7,7 @@ import sql from './configs/db.js';  // 👈 import database
 
 const app = express();  
 
-// ✅ Debug check for Clerk keys
+
 console.log("Clerk Publishable Key:", process.env.CLERK_PUBLISHABLE_KEY);
 console.log("Clerk Secret Key:", process.env.CLERK_SECRET_KEY ? "Loaded ✅" : "Missing ❌");
 
@@ -19,7 +19,7 @@ app.get('/', (req, res) =>
    res.send('Server is Live! 🚀')
 );
 
-// ✅ DB Test Route
+
 app.get('/test-db', async (req, res) => {
     try {
         const result = await sql`SELECT NOW()`;
