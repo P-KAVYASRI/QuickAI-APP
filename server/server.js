@@ -9,7 +9,7 @@ const app = express();
 
 
 console.log("Clerk Publishable Key:", process.env.CLERK_PUBLISHABLE_KEY);
-console.log("Clerk Secret Key:", process.env.CLERK_SECRET_KEY ? "Loaded ✅" : "Missing ❌");
+console.log("Clerk Secret Key:", process.env.CLERK_SECRET_KEY ? "Loaded " : "Missing ");
 
 app.use(cors());
 app.use(express.json());   
