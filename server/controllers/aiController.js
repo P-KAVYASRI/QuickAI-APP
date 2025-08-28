@@ -39,7 +39,7 @@ export const generateArticle = async (req, res) => {
 
     const content = getAIContent(response);
 
-    // ✅ Insert into Neon
+  //insert neon console
     await sql`
       insert into creations (user_id, prompt, content, type) 
       values (${userId}, ${prompt}, ${content}, 'article')
