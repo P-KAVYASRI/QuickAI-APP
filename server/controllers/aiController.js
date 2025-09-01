@@ -10,8 +10,8 @@ export const generateArticle= async(req,res)=>{
         if(plan !='premium' &&free_usage>=10){
             return res.json({success: false,message: "Limit reached. Upgrade to continue."})
         }
-         
-        
+         //GOOGLE GEMINI 3:53:47
+
     }catch(error){
 
     }
