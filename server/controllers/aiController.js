@@ -11,6 +11,7 @@ export const generateArticle= async(req,res)=>{
             return res.json({success: false,message: "Limit reached. Upgrade to continue."})
         }
          //GOOGLE GEMINI 3:53:47
+         //youtube starts from 3:53:47
 
     }catch(error){
 
