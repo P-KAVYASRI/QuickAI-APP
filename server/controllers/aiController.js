@@ -13,7 +13,7 @@ export const generateArticle= async(req,res)=>{
          //GOOGLE GEMINI 3:53:47
          //youtube starts from 3:53:47
          //BING CHAT 3:53:47
-         //changes made to the video
+         
 
     }catch(error){
 
