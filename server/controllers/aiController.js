@@ -8,7 +8,7 @@ export const generateArticle= async(req,res)=>{
         const free_usage=req.free_usage;
 
         if(plan !='premium' &&free_usage>=10){
-            return res.json({success: false,message: "Limit reached. Upgrade to "})
+            return res.json({success: false,message: "Limit reached. Upgrade to continue. "})
         }
          //GOOGLE GEMINI 3:53:47
          //youtube starts from 3:53:47
